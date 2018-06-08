@@ -1,6 +1,0 @@
-{
-    "Type" : "AWS::Cognito::UserPoolClient",
-    "Properties" : {
-      "UserPoolId" : {"Ref":"TodoUserPool"}
-    }
-  }
