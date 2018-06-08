@@ -108,10 +108,10 @@ class LoginView extends ReactComponentOf<LoginProps, LoginState, LoginRefs>{
                     <div className="form" ref="loginForm">
                         <h3>Login</h3>
                         <div>
-                            email: <input type="text" ref="loginEmail" onChange={handleChange} defaultValue="me@aaronspjut.com"/>
+                            email: <input type="text" ref="loginEmail" onChange={handleChange} defaultValue=""/>
                         </div>
                         <div>
-                            password: <input type="text" ref="loginPassword" onChange={handleChange} defaultValue="passwordA1"/>
+                            password: <input type="text" ref="loginPassword" onChange={handleChange} defaultValue=""/>
                         </div>
                         <button type="button" onClick={handleLogin}>Login</button>
                     </div>

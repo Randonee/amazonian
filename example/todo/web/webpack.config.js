@@ -96,7 +96,7 @@ module.exports = {
 
         // Like generating the HTML page with links the generated JS files
         new HtmlWebpackPlugin({
-            title: 'Rock Gym Routs'
+            title: 'Todo App'
         })
         // You may want to also:
         // - finer control of minify/uglify process using UglifyJSPlugin,
