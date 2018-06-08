@@ -1,0 +1,12 @@
+# Generator
+-cp ../hxgen/src
+
+# include, aka, no main entry:
+graphql.HaxeGenerator
+
+# AST / Utils
+-cp ../ast/src
+-cp ../utils/src
+
+# output
+-js dist/hxgen.js

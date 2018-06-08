@@ -1,0 +1,17 @@
+aws-creds.json
+aws-config.json
+_easybuild
+build
+temp-java-build.hxml
+java
+
+.vscode
+.haxelib
+yarn.lock
+package-lock.json
+node_modules
+www
+
+
+.DS_Store
+.Trashes

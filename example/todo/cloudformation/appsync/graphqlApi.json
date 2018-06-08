@@ -1,0 +1,12 @@
+{
+	"Type": "AWS::AppSync::GraphQLApi",
+	"Properties": {
+		"AuthenticationType": "AMAZON_COGNITO_USER_POOLS",
+		"Name": "TodoAPI",
+		"UserPoolConfig": {
+			"AwsRegion": "us-west-2",
+			"DefaultAction": "ALLOW",
+			"UserPoolId": {"Ref":"TodoUserPool"}
+		}
+	}
+}

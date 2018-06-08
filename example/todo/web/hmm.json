@@ -1,0 +1,61 @@
+{
+    "dependencies": [
+      {
+        "name": "haxe-loader",
+        "type": "haxelib",
+        "version": null
+      },
+      {
+        "name": "react",
+        "type": "haxelib",
+        "version": null
+      },
+      {
+        "name":"tink_await",
+        "type": "haxelib",
+        "version": null
+      },
+      {
+        "name":"tink_core",
+        "type": "haxelib",
+        "version": null
+      },
+      {
+        "name":"tink_parse",
+        "type": "haxelib",
+        "version": null
+      },
+      {
+        "name":"haxe-apollo-client",
+        "type": "git",
+        "url": "https://github.com/Randonee/haxe-apollo-client.git",
+        "ref":"master"
+      },
+      {
+        "name":"haxe-aws-js",
+        "type": "git",
+        "url": "https://github.com/Randonee/haxe-aws-js.git",
+        "ref":"master"
+      },
+      {
+        "name":"haxe-graphql-js",
+        "type": "git",
+        "url": "https://github.com/Randonee/haxe-graphql-js.git",
+        "ref":"master"
+      },
+      {
+        "name":"haxe-graphql-ast",
+        "type": "git",
+        "url": "https://github.com/Randonee/haxe-graphql.git",
+        "ref":"master",
+        "dir":"proj/ast/src"
+      },
+      {
+        "name":"haxe-graphql-parser",
+        "type": "git",
+        "url": "https://github.com/Randonee/haxe-graphql.git",
+        "ref":"master",
+        "dir":"proj/parser/src"
+      }
+    ]
+  }

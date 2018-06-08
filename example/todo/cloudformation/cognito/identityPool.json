@@ -1,0 +1,19 @@
+{
+    "Type": "AWS::Cognito::IdentityPool",
+    "Properties": {
+        "AllowUnauthenticatedIdentities": true,
+        "CognitoIdentityProviders": [
+            {
+                "ClientId": {
+                    "Ref": "TodoUserPoolClient"
+                },
+                "ProviderName": {
+                    "Fn::GetAtt": [
+                        "TodoUserPool",
+                        "ProviderName"
+                    ]
+                }
+            }
+        ]
+    }
+}

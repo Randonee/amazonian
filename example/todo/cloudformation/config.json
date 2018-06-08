@@ -1,0 +1,4 @@
+{
+    "creds":$$file(aws-creds.json),
+    "stack":$$file(stack.json)
+}

@@ -1,0 +1,45 @@
+{
+    "Type": "AWS::Cognito::UserPool",
+    "Properties": {
+        "AdminCreateUserConfig": {
+            "AllowAdminCreateUserOnly": false,
+            "UnusedAccountValidityDays": 7
+        },
+        "UsernameAttributes": ["email"],
+        "AutoVerifiedAttributes": [
+            "email"
+        ],
+        "DeviceConfiguration": {
+            "ChallengeRequiredOnNewDevice": false,
+            "DeviceOnlyRememberedOnUserPrompt": false
+        },
+        "EmailConfiguration": {
+            "ReplyToEmailAddress": "help@example.com"
+        },
+        "EmailVerificationSubject": "Account verify",
+        "MfaConfiguration": "OFF",
+        "Policies": {
+            "PasswordPolicy": {
+                "MinimumLength": 8,
+                "RequireLowercase": true,
+                "RequireNumbers": true,
+                "RequireSymbols": false,
+                "RequireUppercase": true
+            }
+        },
+        "UserPoolName": "TodoUserPool",
+        "Schema": [
+            {
+                "AttributeDataType": "String",
+                "DeveloperOnlyAttribute": false,
+                "Mutable": true,
+                "Name": "email",
+                "Required": true,
+                "StringAttributeConstraints": {
+                    "MaxLength": "200",
+                    "MinLength": "5"
+                }
+            }
+        ]
+    }
+}

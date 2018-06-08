@@ -1,0 +1,16 @@
+-lib haxe-loader
+-lib react
+
+-lib haxe-apollo-client
+-lib haxe-aws-js
+-lib haxe-graphql-js
+
+-lib haxe-graphql-ast
+-lib haxe-graphql-parser
+
+graphql/parser/depends.hxml
+
+-cp src
+
+-js app.js
+-main todo.App

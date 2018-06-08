@@ -1,0 +1,13 @@
+.loginView{
+}
+
+.form{
+    text-align: left;
+    display: inline-block;
+}
+
+.form span{
+    display: inline-block;
+    width:300px;
+    padding-bottom:15px;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "rgr",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.3",
+    "apollo-cache-inmemory": "^1.1.0",
+    "apollo-client": "^2.0.3",
+    "apollo-link": "^1.0.3",
+    "apollo-link-http": "^1.2.0",
+    "apollo-react": "^0.7.1",
+    "aws-amplify": "^0.3.3",
+    "aws-amplify-react": "^0.1.43",
+    "aws-appsync": "^1.0.17",
+    "aws-appsync-react": "^1.0.10",
+    "aws-sdk": "^2.233.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.4",
+    "es6-promise": "^4.1.1",
+    "file-loader": "^0.11.2",
+    "graphql": "^0.13.2",
+    "haxe-loader": "^0.8.0",
+    "html-webpack-plugin": "^2.29.0",
+    "isomorphic-fetch": "^2.2.1",
+    "json-loader": "^0.5.7",
+    "react": "^16.3.2",
+    "react-apollo": "^2.1.4",
+    "react-dom": "^16.3.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0",
+    "ws": "^3.3.1"
+  }
+}
